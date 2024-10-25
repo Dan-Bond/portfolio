@@ -1,5 +1,5 @@
 body{
-    background: bisque;
+    background: white;
 }
 
 .navbar{
@@ -21,14 +21,14 @@ body{
 }
 
 h1{
-    color: bisque;
+    color: white;
     font-size: 30px;
     font-weight: bold;
     margin-right: 25px;
 }
 
 a{
-    color: bisque;
+    color: white;
     font-size: 20px;
     font-weight: bold;
     margin-right: 25px;
@@ -36,22 +36,33 @@ a{
 
 h2{
     text-decoration: underline;
-    background: bisque;
-    color:#2451d6;
+    background: white;
+    color:black;
     font-size: 25px;
     text-align: center;
 }
 
 h3{
-    background: bisque;
-    color:#2451d6;
+    background: white;
+    color:black;
     font-size: 20px;
     text-align: left;
 }
 
 p{
-    background: bisque;
-    color:#2451d6;
-    font-size: 16px;
+    background: white;
+    color: black;
+    font-size: 18px;
     text-align: justify;
+}
+.self{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#selfie{
+    border: 5px solid #2451d6;
+    max-width: 200px;
+    max-height: 250px;
 }

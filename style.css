@@ -1,0 +1,158 @@
+body {
+    background: #FFFFFF;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.navbar {
+    background: #2451d6;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.nav-title {
+    flex-grow: 1; /* Allow h1 to take available space */
+    text-align: left; 
+}
+
+.navdiv {
+    display: flex; 
+    align-items: center; 
+}
+
+.navli {
+    list-style: none; 
+    display: inline-block; 
+    margin-right: 25px; 
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 2rem; 
+    font-weight: bold;
+}
+
+a {
+    color: #FFFFFF;
+    font-size: 1.25rem; /* Responsive font size */
+    font-weight: bold;
+    text-decoration: none; /* Remove underline from links */
+}
+
+h2 {
+    text-decoration: underline;
+    background: #FFFFFF;
+    color: #000000;
+    font-size: 2rem; /* Responsive font size */
+    text-align: center;
+}
+
+h3 {
+    background: #FFFFFF;
+    color: #000000;
+    font-size: 1.5rem; /* Responsive font size */
+    text-align: left;
+}
+
+p {
+    background: #FFFFFF;
+    color: #000000;
+    font-size: 1.25rem; /* Responsive font size */
+    text-align: justify;
+}
+
+.self {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.text-block {
+    margin: 10px; 
+    padding: 10px;
+    flex: 1; 
+}
+
+.selfPort {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+#myImage {
+    border: 5px solid #2451d6;
+    border-radius: 5px;
+    max-width: 200px; 
+    height: auto; 
+    margin-left: 20px; 
+}
+
+#changeImageBtn {
+    background-color: #2451d6;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 #7d7e82, 0 4px 12px 0 #7d7e82;
+    color: #000000;
+    font-size: 1rem; 
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    transition-duration: 0.5s;
+}
+
+#changeImageBtn:hover {
+    color: #2451d6;
+    background-color: #000000;
+}
+
+#changeImageBtn:active {
+    box-shadow: 0 2.5px 5px 0 #7d7e82, 0 2px 6px 0 #7d7e82;
+    transform: translateY(4px);
+}
+
+#Contacts{
+    margin: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem; /* Smaller font size for small screens */
+    }
+
+    a {
+        font-size: 1rem; /* Smaller font size for links */
+    }
+
+    h2 {
+        font-size: 1.25rem; /* Smaller font size for h2 */
+    }
+
+    h3 {
+        font-size: 1rem; /* Smaller font size for h3 */
+    }
+
+    p {
+        font-size: 0.9rem; /* Smaller font size for paragraphs */
+    }
+
+    #changeImageBtn {
+        font-size: 0.9rem; /* Smaller button font size */
+        width: 90%; /* Button width on small screens */
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    h1 {
+        font-size: 2rem; /* Adjust for medium screens */
+    }
+
+    #changeImageBtn {
+        width: 70%; /* Adjust button width for medium screens */
+    }
+}

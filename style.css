@@ -115,6 +115,22 @@ p {
     transform: translateY(4px);
 }
 
+.image-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    margin: 20px 0; 
+}
+
+.projectImg {
+    border: 5px solid #2451d6;
+    border-radius: 5px;
+    max-width: auto; 
+    height: 200px; 
+    margin-left: 20px; 
+}
+
 #Contacts{
     margin: 20px;
 }
@@ -144,6 +160,16 @@ p {
     #changeImageBtn {
         font-size: 0.9rem; /* Smaller button font size */
         width: 90%; /* Button width on small screens */
+    }
+
+    .image-container {
+        flex-direction: column; /* Stack images vertically on small screens */
+        align-items: center; /* Center images */
+    }
+
+    .projectImg {
+        margin-left: 0; /* Remove left margin for smaller screens */
+        margin-bottom: 20px; /* Add bottom margin for spacing */
     }
 }
 

@@ -61,8 +61,23 @@ p{
     justify-content: space-evenly;
 }
 
-#selfie{
+.selfPort{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#myImage{
     border: 5px solid #2451d6;
     max-width: 200px;
     max-height: 250px;
+}
+
+#changeImageBtn{
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    padding: 10px;
+    justify-content: center;
 }

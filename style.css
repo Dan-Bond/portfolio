@@ -8,10 +8,15 @@ body {
     background: #2451d6;
     border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
-    padding: 15px; 
+    padding: 15px;
+    position: fixed;
+    top: 0;
     display: flex; 
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1000; 
 }
 
 .nav-title {

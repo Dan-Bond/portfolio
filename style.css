@@ -6,7 +6,7 @@ body {
 
 .navbar {
     background: #2451d6;
-    border-radius: 10px;
+    border-radius: 20px;
     font-family: 'Times New Roman', Times, serif;
     padding: 15px;
     position: fixed;
@@ -46,6 +46,10 @@ a {
     font-size: 1.25rem; /* Responsive font size */
     font-weight: bold;
     text-decoration: none; /* Remove underline from links */
+}
+
+.content {
+    padding-top: 105px; /* Space for the fixed navbar */
 }
 
 h2 {
